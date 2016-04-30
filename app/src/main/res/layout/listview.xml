@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/avatar"
+        android:layout_width="39dp"
+        android:layout_height="39dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+
+        android:background="@drawable/avatar"
+        android:layout_marginRight="12dp" />
+
+    <LinearLayout
+        android:layout_width="164dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/notification"
+            android:layout_width="176dp"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:text="Notification6" />
+
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:text="Luqman" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textSize="12dp"
+        android:text="Status"
+        android:gravity="center_vertical|center_horizontal" />
+
+</LinearLayout>
